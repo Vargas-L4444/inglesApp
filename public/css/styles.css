@@ -1,0 +1,105 @@
+/* Fondo de pantalla completo */
+body.img-page {
+    font-family: 'Roboto', sans-serif;
+    background: url('/inglesApp/public/img/imgs.jpg') no-repeat center center fixed;
+    background-size: cover; /* Ajusta la imagen para cubrir toda la pantalla */
+    color: #000000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+body.login-page {
+    font-family: 'Roboto', sans-serif;
+    background-color: #afafaf; /* Fondo blanco o color claro */
+    color: #ffffff;
+    display:block;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+body.login-page p{
+    color: #ffffff;
+}
+
+body.login-page a{
+    text-decoration: none;
+    color: #3b82f6;
+}
+
+body.login-page a:hover{
+    color: #ff0000;
+}
+
+/* Contenedor centrado con sombra y fondo blanco */
+.container {
+    background-color: rgba(255, 255, 255, 0.9); /* Fondo blanco semitransparente */
+    padding: 44px;
+    border-radius: 8px;
+    box-shadow: 0 0 12px 12px #3b82f6;
+    width: 95%;
+    max-width: 400px;
+    text-align: center;
+    margin: 20px; /* Asegura que haya espacio alrededor en pantallas pequeñas */
+}
+
+/* Otros estilos de entrada y botón, como antes */
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: 80%;
+    padding: 12px; /*Tamaño de casilla blanca*/
+    margin: 10px;
+    border: 1px solid rgb(228, 228, 228);
+    border-radius: 6px;
+    font-size: 16px;
+    background-color: #f9fafb;
+    transition: border-color 0.3s ease, background-color 0.3s ease;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus {
+    border-color: #00b7ff;
+    background-color: #ffffff;
+    outline: none;
+}
+
+button {
+    width: 44%;
+    padding: 12px;
+    margin-top: 10px;
+    font-size: 1em;
+    color: #ffffff;
+    background-color: #3b82f6;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0011ff;
+}
+
+/* Enlace y mensaje */
+p {
+    margin-top: 15px;
+    font-size: 0.9em;
+    color: #6b7280;
+}
+
+p a {
+    color: #3b82f6;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+p a:hover {
+    color: #ff0000;
+}
