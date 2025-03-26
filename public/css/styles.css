@@ -47,6 +47,17 @@ body.login-page a:hover{
     margin: 20px; /* Asegura que haya espacio alrededor en pantallas pequeñas */
 }
 
+/* Mensaje de error */
+p.error-message {
+    color: #ffffff;
+    background-color: #dc2626; /* Rojo intenso */
+    border: 1px solid #b91c1c; /* Borde más oscuro */
+    padding: 12px; /* Espaciado interno */
+    border-radius: 6px; /* Bordes redondeados */
+    font-size: 0.9em; /* Tamaño de fuente */
+    margin-bottom: 16px; /* Espaciado inferior */
+}
+
 /* Otros estilos de entrada y botón, como antes */
 input[type="text"],
 input[type="email"],

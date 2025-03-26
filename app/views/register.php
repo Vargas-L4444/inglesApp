@@ -2,7 +2,7 @@
 <html lang="es">
 <head>
     <link rel="stylesheet" href="/inglesApp/public/css/styles.css">
-    <title>Registro</title>
+    <title>InglesApp | Registro</title>
 </head>
 <body class="img-page"> <!-- Clase 'register-page' para aplicar el fondo de imagen -->
     <div class="container">
